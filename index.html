@@ -8,7 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
   <body>
@@ -40,12 +42,16 @@
         </div>
       </nav>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-60p bg-secondary">
+        <div class="row" style="background: #D8D8D8;">
+            <div class="banner col-md-60p">
                 <img src="./images/banner.jpg" class="img-fluid-banner " alt="banner">
             </div>
-            <div class="col-md-40p bg-secondary">
-                <h1 class="text-center fw-bold">Learn something new everyday</h1>
+            <div class="bannertext col-md-40p my-auto">
+                <h1 class="bannertitle">Learn something new everyday</h1>
+                <p class="bannerContent">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                <div class="startHereBtnDiv">
+                <button type="button" class="border border-1 startHereBtn btn-secondary mx-auto">Start here</button>
+                </div>
             </div>
         </div>
     </div>
