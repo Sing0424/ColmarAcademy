@@ -1,0 +1,14 @@
+.col-md-60p {
+    flex: 0 0 auto;
+    width: 60%;
+}
+.col-md-40p {
+    flex: 0 0 auto;
+    width: 40%;
+}
+.img-fluid-banner {
+    max-width: 100%;
+    height: auto;
+    margin: 32px 24px;
+    padding: 0px;
+}
