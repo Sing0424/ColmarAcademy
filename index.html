@@ -10,47 +10,90 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <div class="logo container-fluid">
+            <a class="brand navbar-brand" href="#">
                 <img src="./images/ic-logo.svg" class="rounded float-start" alt="colmar academy">
-                COLMAR ACADEMY
+                <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="menu navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">On Campus</a>
+                    <a class="nav-link menuComponent" href="#">On Campus</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Online</a>
+                    <a class="nav-link menuComponent" href="#">Online</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Companies</a>
+                    <a class="nav-link menuComponent" href="#">Companies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in</a>
+                    <a class="nav-link menuComponent" href="#">Sign in</a>
                 </li>
                 </ul>
             </div>
         </div>
       </nav>
     <div class="container-fluid">
-        <div class="row" style="background: #D8D8D8;">
+        <div class="row firstrow">
             <div class="banner col-md-60p">
-                <img src="./images/banner.jpg" class="img-fluid-banner " alt="banner">
+                <img src="./images/banner.jpg" class="img-fluid" alt="banner">
             </div>
             <div class="bannertext col-md-40p my-auto">
-                <h1 class="bannertitle">Learn something new everyday</h1>
-                <p class="bannerContent">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                <h1 class="bannertitle">Learn something<br>new everyday</h1>
+                <p class="bannerContent">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</p>
                 <div class="startHereBtnDiv">
                 <button type="button" class="border border-1 startHereBtn btn-secondary mx-auto">Start here</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row secondrow">
+            <div class="information-main col-md-60p">
+                <img src="./images/information-main.jpg" class="img-fluid " alt="information-main">
+                <h2 class="info">It doesn't hurt to keep practicing</h2>
+                <p class="infoContent">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            </div>
+            <div class="col-md-40p">
+                <div class=picCol>
+                    <div class="row">
+                        <div class="col p-0">
+                            <img src="./images/information-orientation.jpg" class="infoPic img-fluid" alt="information-orientation">
+                        </div>
+                        <div class="col">
+                            <p>Orientation date</p>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3am</p>
+                            <button type="button" class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-0">
+                            <img src="./images/information-campus.jpg" class="infoPic img-fluid" alt="information-campus">
+                        </div>
+                        <div class="col">
+                            <p>Our campus</p>
+                            <p>Find which campus is close by you</p>
+                            <button type="button" class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-0">
+                            <img src="./images/information-guest-lecture.jpg" class="infoPic img-fluid" alt="information-guest-lecture">
+                        </div>
+                        <div class="col">
+                            <p>Our guest lecture</p>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <button type="button" class="btn btn-link">Read More</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
