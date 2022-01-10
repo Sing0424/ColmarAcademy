@@ -1,13 +1,22 @@
 html {
-    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
 }
-.firstrow {
+.Div1 {
     background: #D8D8D8;
+    padding: 32px 0px 32px 24px;
 }
-.secondrow {
+.Div2 {
     background: #f1f1f1;
-    padding-top: 32px;
-    padding-left: 24px;
+    padding: 32px 0px 32px 24px;
+}
+.Div3 {
+    background-color: #f1f1f1;
+    margin-bottom: 32px;
+}
+.Div4 {
+    background: #D8D8D8;
+    padding: 0px 0px 32px 24px;
 }
 .navbar {
     padding-top: 7px;
@@ -45,12 +54,13 @@ html {
 .col-md-60p {
     flex: 0 0 auto;
     width: 60%;
-    padding: 0px 24px 0px 0px;
 }
-.banner {
+.bannerimg {
     flex: 0 0 auto;
     width: 60%;
-    padding: 32px 24px;
+}
+.mainimg {
+    width: 100%;
 }
 .bannertext {
     flex: 0 0 auto;
@@ -147,6 +157,33 @@ html {
     color: #4A4A4A;
     font-weight: 400;
 }
-.mainimg {
+.Div3starttext {
+    color: #4A4A4A;
+    padding: 32px 0px;
+    margin: 0px;
+}
+.startlearningfont{
+    font-family: 'Hind', sans-serif;
+}
+.video {
     width: 100%;
+    height: auto;
+}
+.urbantext {
+    font-family: 'Hind', sans-serif;
+    color: #9d9d9d;
+    padding-top: 8px;
+    margin: 0px;
+}
+.urbantitle {
+    font-family: 'Hind', sans-serif;
+    color: #4A4A4A;
+    padding-top: 24px;
+}
+.endbar {
+    background: #D8D8D8;
+    padding: 16px 0px 0px 24px;
+}
+.enditem {
+    margin: 0px 7px;
 }
