@@ -3,11 +3,11 @@ html {
 }
 .firstrow {
     background: #D8D8D8;
-    width: 100vw;
 }
 .secondrow {
     background: #f1f1f1;
-    width: 100vw;
+    padding-top: 32px;
+    padding-left: 24px;
 }
 .navbar {
     padding-top: 7px;
@@ -45,16 +45,7 @@ html {
 .col-md-60p {
     flex: 0 0 auto;
     width: 60%;
-    padding: 32px 24px;
-}
-.col-md-14p {
-    flex: 0 0 auto;
-    width: 14%;
-}
-.col-md-26p {
-    flex: 0 0 auto;
-    width: 26%;
-    padding: 0px;
+    padding: 0px 24px 0px 0px;
 }
 .banner {
     flex: 0 0 auto;
@@ -72,24 +63,19 @@ html {
     font-weight: 700;
     margin: 0px;
     padding: 1vw 0vw;
-    font-size: 48px;
+    font-size: 4vw;
 }
 .bannerContent{
     font-family: 'Hind', sans-serif;
     color: #4A4A4A;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 2.2vw;
     margin: 0px;
     padding: 1vw 0vw;
 }
 .startHereBtn{
-    width: 27vw;
+    width: 30vw;
     padding: 8px 0px;
-}
-.information-main {
-   flex: 0 0 auto;
-    padding: 32px 24px;
-    max-width: 100%; 
 }
 .info {
     font-family: 'Hind', sans-serif;
@@ -97,21 +83,70 @@ html {
     font-weight: 700;
     font-size: 40px;
     padding-top: 32px;
-    padding-bottom: 12px;
     margin: 0px;
 }
 .infoContent {
     font-family: 'Hind', sans-serif;
-    color: #4A4A4A;
+    color: #9d9d9d;
     font-weight: 700;
-    font-size: 12px;
-    padding-top: 12px;
+    font-size: 16px;
+    padding-top: 24px;
     margin: 0px;
-}
-.infoPic {
-    padding: 16px;
 }
 .infoRightContent {
     font-family: 'Hind', sans-serif;
     font-size: 20px;
+}
+.infoExtra {
+    font-family: 'Hind', sans-serif;
+    color: #9d9d9d;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px;
+}
+.picCard{
+    width: 100%;
+    padding-left: 16px;
+    background-color: #f1f1f1;
+}
+.picCard3{
+    width: 100%;
+    padding-left: 16px;
+    background-color: #9d9d9d;
+}
+.cardRightSide {
+    width: 65%;
+    padding: 0px;
+}
+.cardLeftSide {
+    width: 35%;
+    padding: 0px 0px 0px 16px;
+}
+.div2Rimg {
+    width: 100%;
+    height: auto;
+}
+.card-body {
+    padding: 0px;
+    padding-left: 16px;
+}
+.cardRow {
+    max-width: 90%;
+    padding: 16px 0px;
+}
+.readmore {
+    padding: 0px;
+}
+.card-title{
+    font-family: 'Hind', sans-serif;
+    color: #4A4A4A;
+    font-weight: 600;
+}
+.card-text{
+    font-family: 'Hind', sans-serif;
+    color: #4A4A4A;
+    font-weight: 400;
+}
+.mainimg {
+    width: 100%;
 }
